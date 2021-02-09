@@ -126,7 +126,7 @@ pipeline {
 
       environment {
         GITHUB_TOKEN = credentials('github-api-token')
-        NPM_TOKEN = credentials('github-api-token')
+        NPM_TOKEN = credentials('npm-publish-token')
         NPM_CONFIG_CACHE = '.npm'
         NPM_CONFIG_USERCONFIG = '.npm/rc'
         SPAWN_WRAP_SHIM_ROOT = '.npm'
