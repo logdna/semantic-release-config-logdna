@@ -1,0 +1,98 @@
+{
+  "name": "semantic-release-config-logdna",
+  "description": "Semantic Release shareable configuration for logdna npm packages",
+  "version": "0.0.0",
+  "main": "index.js",
+  "files": [
+    "lib/**/*",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "tap": "tap",
+    "lint": "eslint ./",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "tap",
+    "release": "semantic-release",
+    "test:ci": "tools/test-ci.sh",
+    "pretest": "npm run lint",
+    "pretest:ci": "npm run lint"
+  },
+  "author": "LogDNA Inc. <help@logdna.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/logdna/semantic-release-config-logdna.git"
+  },
+  "homepage": "https://github.com/logdna/semantic-release-config-logdna",
+  "bugs": {
+    "url": "https://github.com/logdna/semantic-release-config-logdna/issues"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "configuration",
+    "git",
+    "github",
+    "npm",
+    "release",
+    "semantic-release",
+    "semver",
+    "shareable"
+  ],
+  "contributors": [
+    {
+      "name": "Eric Satterwhite",
+      "email": "esatterwhite@wi.rr.com"
+    }
+  ],
+  "eslintConfig": {
+    "root": true,
+    "ignorePatterns": [
+      "node_modules/",
+      "coverage/"
+    ],
+    "extends": "logdna",
+    "parserOptions": {
+      "ecmaVersion": 2019
+    }
+  },
+  "tap": {
+    "esm": false,
+    "ts": false,
+    "jsx": false,
+    "browser": false,
+    "check-coverage": true,
+    "output-file": ".tap",
+    "files": [
+      "test/unit"
+    ],
+    "coverage-report": [
+      "text",
+      "text-summary",
+      "json",
+      "json-summary",
+      "html"
+    ],
+    "branches": 95,
+    "lines": 95,
+    "functions": 95,
+    "nyc-arg": [
+      "--exclude=test/",
+      "--exclude=coverage/",
+      "--all"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-logdna": "^4.0.2",
+    "handlebars": "^4.7.6",
+    "semantic-release": "^17.3.8",
+    "tap": "^14.11.0",
+    "tap-parser": "^10.1.0",
+    "tap-xunit": "^2.4.1"
+  },
+  "dependencies": {
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/git": "^9.0.0"
+  }
+}
