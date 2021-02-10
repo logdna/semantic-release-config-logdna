@@ -54,6 +54,13 @@
     "extends": "logdna",
     "parserOptions": {
       "ecmaVersion": 2019
+    },
+    "rules": {
+      "no-unused-vars": [2, {
+        "vars": "all",
+        "args": "none",
+        "varsIgnorePattern": "^_$"
+      }]
     }
   },
   "tap": {
