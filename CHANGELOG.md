@@ -1,5 +1,17 @@
 ## Changelog
 
+## [1.0.1](https://github.com/logdna/semantic-release-config-logdna/compare/v1.0.0...v1.0.1) (2021-02-10)
+
+
+### Bug Fixes
+
+* update package name globally [a9598fa](https://github.com/logdna/semantic-release-config-logdna/commit/a9598fa31b1752d35721472b1909ac0762052c17) - Mike Del Tito
+
+
+### Documentation
+
+* update installation instructions [0aba75a](https://github.com/logdna/semantic-release-config-logdna/commit/0aba75a017da013e2f8a0cec2c0c92065add3a1a) - Mike Del Tito
+
 # 1.0.0 (2021-02-09)
 
 
