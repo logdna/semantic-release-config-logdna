@@ -12,10 +12,11 @@ The shareable configuration can be configured in the [**semantic-release** confi
 ### Installation
 
 ```shell
-$ npm install semantic-release-config-logdna
+$ npm install --save-dev semantic-release semantic-release-config-logdna
 ```
 
 ```json
+// package.json
 {
   "release": {
     "branches": ["main"],
