@@ -7,7 +7,7 @@ function sortByType(a, b) {
   return a.type < b.type ? -1 : 1
 }
 
-test('release-config-logdna', async (t) => {
+test('semantic-release-config-logdna', async (t) => {
   const plugins = config.plugins.map((plugin) => {
     return plugin[0]
   })

@@ -1,6 +1,6 @@
 library 'magic-butler-catalogue'
 
-def PROJECT_NAME = "release-config-logdna"
+def PROJECT_NAME = "semantic-release-config-logdna"
 def CURRENT_BRANCH = [env.CHANGE_BRANCH, env.BRANCH_NAME]?.find{branch -> branch != null}
 def TRIGGER_PATTERN = ".*@logdnabot.*"
 
