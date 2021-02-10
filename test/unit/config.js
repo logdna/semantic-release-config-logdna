@@ -2,6 +2,7 @@
 
 const {test, threw} = require('tap')
 const config = require('../../index.js')
+const constants = require('../../lib/constants.js')
 
 function sortByType(a, b) {
   return a.type < b.type ? -1 : 1
@@ -16,6 +17,7 @@ test('semantic-release-config-logdna', async (t) => {
   t.match(config.parserOpts, {
     noteKeywords: ['BREAKING CHANGES', 'BREAKING CHANGE', 'BREAKING']
   , headerPattern: /^(\w*)(?:\((.*)\))?!?: (.*)$/
+  , breakingHeaderPattern: constants.BREAKING_HEADER_REGEX
   , headerCorrespondence: ['type', 'scope', 'subject']
   , issuePrefixes: ['#', 'gh-']
   , referenceActions: [

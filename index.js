@@ -2,6 +2,7 @@
 
 const templates = require('./lib/templates/index.js')
 const commit = require('./lib/commit.js')
+const constants = require('./lib/constants.js')
 const now = new Date()
 const year = now.getFullYear()
 const day = String(now.getDate()).padStart(2, '0')
@@ -13,6 +14,7 @@ module.exports = {
 , parserOpts: {
     noteKeywords: ['BREAKING CHANGES', 'BREAKING CHANGE', 'BREAKING']
   , headerPattern: /^(\w*)(?:\((.*)\))?!?: (.*)$/
+  , breakingHeaderPattern: constants.BREAKING_HEADER_REGEX
   , headerCorrespondence: ['type', 'scope', 'subject']
   , issuePrefixes: ['#', 'gh-']
   , referenceActions: [
