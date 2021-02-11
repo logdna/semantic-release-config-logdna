@@ -1,5 +1,18 @@
 ## Changelog
 
+# [1.1.0](https://github.com/logdna/semantic-release-config-logdna/compare/v1.0.2...v1.1.0) (2021-02-11)
+
+
+### Features
+
+* **package**: add mike del tito as a contributor [836f4f8](https://github.com/logdna/semantic-release-config-logdna/commit/836f4f8ca9da20eed9bbf1b15454b9628a4fca20) - Eric Satterwhite
+
+
+### Miscellaneous
+
+* add @esatterwhite as a contributor [d3268b4](https://github.com/logdna/semantic-release-config-logdna/commit/d3268b4a67f77d415d814a46e3656b4bac9f3882) - Eric Satterwhite
+* add @mdeltito as a contributor [4a8f6b9](https://github.com/logdna/semantic-release-config-logdna/commit/4a8f6b9f4c8a94dacd7a554e42cdbc7270665eea) - Eric Satterwhite
+
 ## [1.0.2](https://github.com/logdna/semantic-release-config-logdna/compare/v1.0.1...v1.0.2) (2021-02-11)
 
 
