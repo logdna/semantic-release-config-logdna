@@ -43,6 +43,10 @@
     {
       "name": "Eric Satterwhite",
       "email": "esatterwhite@wi.rr.com"
+    },
+    {
+      "name": "Mike Del Tito",
+      "email": "mike.deltito@logdna.com"
     }
   ],
   "eslintConfig": {
