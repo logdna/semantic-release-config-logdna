@@ -21,6 +21,16 @@
         "test",
         "maintenance"
       ]
+    },
+    {
+      "login": "mdeltito",
+      "name": "Mike Del Tito",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69520?v=4",
+      "profile": "https://github.com/mdeltito",
+      "contributions": [
+        "doc",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7
