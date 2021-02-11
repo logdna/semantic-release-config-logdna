@@ -1,7 +1,7 @@
 {
   "name": "semantic-release-config-logdna",
   "description": "Semantic Release shareable configuration for logdna npm packages",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "files": [
     "lib/**/*",
@@ -56,11 +56,14 @@
       "ecmaVersion": 2019
     },
     "rules": {
-      "no-unused-vars": [2, {
-        "vars": "all",
-        "args": "none",
-        "varsIgnorePattern": "^_$"
-      }]
+      "no-unused-vars": [
+        2,
+        {
+          "vars": "all",
+          "args": "none",
+          "varsIgnorePattern": "^_$"
+        }
+      ]
     }
   },
   "tap": {

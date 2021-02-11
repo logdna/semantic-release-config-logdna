@@ -1,5 +1,12 @@
 ## Changelog
 
+## [1.0.2](https://github.com/logdna/semantic-release-config-logdna/compare/v1.0.1...v1.0.2) (2021-02-11)
+
+
+### Bug Fixes
+
+* **commit**: the bang (!) indicates a breaking change [034b30d](https://github.com/logdna/semantic-release-config-logdna/commit/034b30d00ee5a00d246a005485af4184031112a7) - Eric Satterwhite, closes: [#5](https://github.com/logdna/semantic-release-config-logdna/issues/5)
+
 ## [1.0.1](https://github.com/logdna/semantic-release-config-logdna/compare/v1.0.0...v1.0.1) (2021-02-10)
 
 
