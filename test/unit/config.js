@@ -28,7 +28,8 @@ test('semantic-release-config-logdna', async (t) => {
   }, 'default commit parser options')
 
   t.deepEqual(config.releaseRules.sort(sortByType), [
-    {type: 'build', release: 'patch'}
+    {breaking: true, release: 'major'}
+  , {type: 'build', release: 'patch'}
   , {type: 'ci', release: 'patch'}
   , {type: 'chore', release: 'patch'}
   , {type: 'doc', release: 'patch'}
