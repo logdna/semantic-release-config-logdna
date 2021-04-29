@@ -71,7 +71,6 @@
     }
   },
   "tap": {
-    "esm": false,
     "ts": false,
     "jsx": false,
     "browser": false,
@@ -98,10 +97,10 @@
   },
   "devDependencies": {
     "eslint": "^7.19.0",
-    "eslint-config-logdna": "^4.0.2",
+    "eslint-config-logdna": "^5.0.0",
     "handlebars": "^4.7.6",
     "semantic-release": "^17.3.8",
-    "tap": "^14.11.0",
+    "tap": "^15.0.6",
     "tap-parser": "^10.1.0",
     "tap-xunit": "^2.4.1"
   },
