@@ -38,6 +38,7 @@ $ npm install --save-dev semantic-release semantic-release-config-logdna
   * Includes links to commit sha
   * Organizes changes by type
 * Commits standardized `release` commit back upstream
+* Attaches any build artifacts placed in `./dist` to the release
 
 
 ### Commit Types
