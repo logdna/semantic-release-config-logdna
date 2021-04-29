@@ -1,5 +1,17 @@
 ## Changelog
 
+# [1.2.0](https://github.com/logdna/semantic-release-config-logdna/compare/v1.1.1...v1.2.0) (2021-04-29)
+
+
+### Chores
+
+* **deps**: update eslint-config-logdna@5.0.0 [9fdf62c](https://github.com/logdna/semantic-release-config-logdna/commit/9fdf62c3ff024d7464aed75885f85c2181e3899b) - Mike Del Tito
+
+
+### Features
+
+* **github**: attach all assets in ./dist to release [8206fff](https://github.com/logdna/semantic-release-config-logdna/commit/8206fff29e05f0aa9b1eaceb8b20ab3bb51cd7a2) - Mike Del Tito, closes: [#9](https://github.com/logdna/semantic-release-config-logdna/issues/9)
+
 ## [1.1.1](https://github.com/logdna/semantic-release-config-logdna/compare/v1.1.0...v1.1.1) (2021-02-25)
 
 
