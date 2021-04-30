@@ -1,5 +1,12 @@
 ## Changelog
 
+# [1.3.0](https://github.com/logdna/semantic-release-config-logdna/compare/v1.2.0...v1.3.0) (2021-04-30)
+
+
+### Features
+
+* add coverage json files to releases [2ad784b](https://github.com/logdna/semantic-release-config-logdna/commit/2ad784ba454bf4337be5c70ebd88d5848297a478) - Evan Lucas
+
 # [1.2.0](https://github.com/logdna/semantic-release-config-logdna/compare/v1.1.1...v1.2.0) (2021-04-29)
 
 
