@@ -54,7 +54,10 @@ module.exports = {
         + 'Version <%= nextRelease.version %> [skip ci]'
     }]
   , ['@semantic-release/github', {
-      assets: 'dist/*'
+      assets: [
+        'dist/*'
+      , 'coverage/*.json'
+      ]
     }]
   ]
 }
